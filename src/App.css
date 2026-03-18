@@ -1,0 +1,45 @@
+.bar {
+  fill: rgb(0, 170, 255);
+  fill-opacity: 0.5;
+  stroke: rgb(0, 170, 255);
+  stroke-width: 2px;
+  transition: y 0.5s ease, width 0.5s ease; 
+
+}
+
+.bar-label {
+  font-size: 14px;
+  fill: #5d5d5d;
+  transition: y 0.5s ease;
+}
+.bar-value {
+  font-size: 14px;
+  font-weight: 600;
+  fill: rgb(26, 26, 26);
+  transition: y 0.5s ease, x 0.5s ease;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+button {
+  padding: 4px 16px 4px 16px;
+  background-color: #f3f3f3;
+  border-radius: 1px;
+  border-color: #939393;
+  color: rgb(55, 55, 55);
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+p {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(26, 26, 26);
+}
+.active {
+  background-color: rgb(55, 55, 55);
+  border-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
